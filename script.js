@@ -4,7 +4,7 @@ const result = document.getElementById("result");
 
 function checkIfPalindrome(str) {
     const cleanedStr = str.toLowerCase().replace(/\s/g, "");
-    const reversedStr = str.split("").reverse().join("");
+    const reversedStr = cleanedStr.split("").reverse().join("").toLowerCase();
     return cleanedStr === reversedStr;
 }
 
