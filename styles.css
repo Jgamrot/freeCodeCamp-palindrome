@@ -1,0 +1,57 @@
+*{
+    background-color:#0a0a23;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+    align-items: center;
+  }
+    
+    h1{
+   color: white;
+   
+  }
+  
+  #input-container{
+    background-color:white;
+    padding: 10;
+    margin: 10;
+    border-radius: 10px;
+  }
+  
+  #text-input{
+  min-width: 300px;
+    background-color:white;
+   }
+  
+   #check-btn{
+    background-color:cyan;
+   
+       border-radius: 10px;
+   }
+    
+  #result{
+  background-color:white;
+  padding-top: 10;
+   }
+  
+  label{
+    display: flex;
+         padding: 10;
+  background-color:white;
+  
+  }
+  
+  #help{
+    background-color: darkgreen;
+    color: white;
+    max-width: 500px;
+      padding: 10;
+      border-radius: 10px;
+   
+  }
+  
+  
